@@ -31,10 +31,15 @@
         "google-drive-mcp": "./dist/index.js"
     },
     "files": [
-        "dist/",
-        "README.md",
-        "LICENSE"
-    ],
+  "dist/",
+  "src/",
+  "scripts/",
+  "tsconfig.json",
+  "tsconfig.test.json",
+  "package.json",
+  "README.md",
+  "LICENSE"
+],
     "scripts": {
         "typecheck": "tsc --noEmit",
         "build": "npm run typecheck && node scripts/build.js",
